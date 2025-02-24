@@ -8,8 +8,7 @@ import ResetPasswordForm from "./components/reset-password";
 export default function Home() {
   return (
     <div>
-      <NavBar/>
-      <ModeToggle/>
+      <div className="absolute right-4 top-2 text-lg me-10"><ModeToggle/></div>
       <LoginForm/>
       <hr />
       <ChangePasswordForm/>

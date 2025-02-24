@@ -1,6 +1,6 @@
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
-import { ModeToggle } from "./moddle-toggler";
+import { ModeToggle, NavModeToggle } from "./moddle-toggler";
 
 const NavBar = () => {
     return (
@@ -40,7 +40,7 @@ const NavBar = () => {
 </DropdownMenu>
               </NavigationMenuItem>
               <NavigationMenuItem>
-              <ModeToggle/>
+              <NavModeToggle/>
               </NavigationMenuItem>
               </NavigationMenuList>
               </NavigationMenu>
