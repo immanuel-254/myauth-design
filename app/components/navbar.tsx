@@ -7,7 +7,7 @@ const NavBar = () => {
         <div className="relative">
       <div className="fixed top-0 left-0 w-full flex justify-center z-50 py-2 bg-background border-b border-black dark:border-white">
         {/* Button positioned absolutely in top-left */}
-        <a href="/" className="absolute left-4 top-2 text-lg"> Myauth </a>
+        <a href="/" className="absolute left-4 top-2 text-lg"> Auth </a>
 
         {/* NavigationMenu centered */}
         <NavigationMenu>

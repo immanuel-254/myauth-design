@@ -12,10 +12,10 @@ const Monthly = () => {
   
       <div>
         <Card className="px-10">
-  <div className="flex justify-center gap-20 p-6">
+        <div className="flex justify-center gap-20 p-6 pt-8">
     <CardTitle>Monthly</CardTitle>
-    <CardTitle className="rounded-lg border border-black dark:border-white text-center">
-        <p className="h-6 w-9 text-xl">15</p>
+    <CardTitle>
+        <p className="text-6xl -mt-5">15</p>
     </CardTitle>
   </div>
   <Separator/>
