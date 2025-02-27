@@ -6,6 +6,7 @@ import Monthly from "../components/monthlystat";
 import { LoginYearlyChart } from "../components/Loginchart";
 import { ActivityYearlyChart } from "../components/activitychart";
 import { UsersYearlyChart } from "../components/newuserschart";
+import { UserTable } from "../components/usertable";
 
 export default function HomePage() {
     return (
@@ -45,6 +46,7 @@ export default function HomePage() {
             </div>
             </div>
             <UsersYearlyChart/>
+            <UserTable/>
             <Separator className="mx-5 mt-5"/>
           </div>
       </div>
